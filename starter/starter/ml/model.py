@@ -27,7 +27,7 @@ def train_model(X_train, y_train):
                'max_depth': [2, 5, 7, None],
                'min_samples_leaf': [250, 500, 1000],
                'min_samples_split': [500, 1000, 2500],
-               'n_estimators': [10, 100],
+               'n_estimators': [25],
                'criterion': ['gini', 'entropy', 'log_loss']
 
            },
@@ -36,9 +36,8 @@ def train_model(X_train, y_train):
                             verbose=2, refit=True)
 
     model = r_forest.fit(X_train, y_train)
-    print(r_forest.best_estimator_)
 
-    return model
+    return model.best_estimator_
 
 
 def compute_model_metrics(y, preds):

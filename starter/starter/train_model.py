@@ -49,7 +49,6 @@ predictions = inference(model=model, X=X_test)
 
 print(predictions)
 
-
 precision, recall, fbeta = compute_model_metrics(y=y_test, preds=predictions)
 
 print(precision,recall,fbeta)
