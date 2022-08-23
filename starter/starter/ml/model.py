@@ -1,7 +1,7 @@
 from sklearn.metrics import fbeta_score, precision_score, recall_score
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.model_selection import GridSearchCV
-
+from starter.starter.ml.data import process_data
 
 # Optional: implement hyperparameter tuning.
 def train_model(X_train, y_train):
@@ -79,3 +79,31 @@ def inference(model, X):
     """
     predictions = model.predict(X)
     return predictions
+
+def performance_on_slices(df,cat_features,encoder,lb, model,write_to_file):
+    """
+    Run performance of the model on categorical slices of data
+
+    Parameters
+    ----------
+    df: Pandas data frame with test data
+    cat_features: ist containing the names of the categorical features
+    encoder: sklearn.preprocessing._encoders.OneHotEncoder
+    lb: sklearn.preprocessing._label.LabelBinarizer
+    model: Trained machine learning model.
+    write_to_file: txt file where the results of data slicing will be saved
+
+
+
+    """
+    for i in cat_features:
+        for j in df[i].unique():
+            tmp_df = df[df[i] ==j]
+            X_test_tmp, y_test_tmp, _, _ = process_data(tmp_df, categorical_features=cat_features, label="salary", training=False,
+                                                encoder=encoder, lb=lb)
+            tmp_predictions = inference(model=model, X=X_test_tmp)
+            precision, recall, fbeta = compute_model_metrics(y=y_test_tmp, preds=tmp_predictions)
+
+            print("Performance of the model on data slice: ", j, "That belongs to category: ", i, file=write_to_file)
+            print("Precision:", round(precision, 4), "Recall: ", round(recall, 4), "Fbeta: ", round(fbeta, 4),
+                  file=write_to_file)

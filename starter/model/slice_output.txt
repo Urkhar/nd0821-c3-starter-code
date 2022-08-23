@@ -1,0 +1,202 @@
+Performance of the model on whole test data set:
+Precision: 0.7882 Recall:  0.4397 Fbeta:  0.5645
+Performance of the model on data slice:   Private That belongs to category:  workclass
+Precision: 0.8086 Recall:  0.4216 Fbeta:  0.5542
+Performance of the model on data slice:   Self-emp-inc That belongs to category:  workclass
+Precision: 0.8929 Recall:  0.5725 Fbeta:  0.6977
+Performance of the model on data slice:   Self-emp-not-inc That belongs to category:  workclass
+Precision: 0.7115 Recall:  0.4966 Fbeta:  0.585
+Performance of the model on data slice:   ? That belongs to category:  workclass
+Precision: 0.6875 Recall:  0.2558 Fbeta:  0.3729
+Performance of the model on data slice:   State-gov That belongs to category:  workclass
+Precision: 0.7059 Recall:  0.507 Fbeta:  0.5902
+Performance of the model on data slice:   Local-gov That belongs to category:  workclass
+Precision: 0.7284 Recall:  0.447 Fbeta:  0.554
+Performance of the model on data slice:   Federal-gov That belongs to category:  workclass
+Precision: 0.7714 Recall:  0.36 Fbeta:  0.4909
+Performance of the model on data slice:   Without-pay That belongs to category:  workclass
+Precision: 1.0 Recall:  1.0 Fbeta:  1.0
+Performance of the model on data slice:   Never-worked That belongs to category:  workclass
+Precision: 1.0 Recall:  1.0 Fbeta:  1.0
+Performance of the model on data slice:   10th That belongs to category:  education
+Precision: 1.0 Recall:  0.0833 Fbeta:  0.1538
+Performance of the model on data slice:   Some-college That belongs to category:  education
+Precision: 1.0 Recall:  0.1404 Fbeta:  0.2462
+Performance of the model on data slice:   9th That belongs to category:  education
+Precision: 1.0 Recall:  0.2 Fbeta:  0.3333
+Performance of the model on data slice:   Bachelors That belongs to category:  education
+Precision: 0.7425 Recall:  0.7441 Fbeta:  0.7433
+Performance of the model on data slice:   Assoc-voc That belongs to category:  education
+Precision: 1.0 Recall:  0.1707 Fbeta:  0.2917
+Performance of the model on data slice:   HS-grad That belongs to category:  education
+Precision: 1.0 Recall:  0.1068 Fbeta:  0.193
+Performance of the model on data slice:   Masters That belongs to category:  education
+Precision: 0.7637 Recall:  0.724 Fbeta:  0.7433
+Performance of the model on data slice:   Prof-school That belongs to category:  education
+Precision: 0.859 Recall:  0.7444 Fbeta:  0.7976
+Performance of the model on data slice:   Assoc-acdm That belongs to category:  education
+Precision: 0.7143 Recall:  0.2222 Fbeta:  0.339
+Performance of the model on data slice:   Doctorate That belongs to category:  education
+Precision: 0.8235 Recall:  0.6462 Fbeta:  0.7241
+Performance of the model on data slice:   11th That belongs to category:  education
+Precision: 1.0 Recall:  0.1818 Fbeta:  0.3077
+Performance of the model on data slice:   7th-8th That belongs to category:  education
+Precision: 1.0 Recall:  0.0 Fbeta:  0.0
+Performance of the model on data slice:   5th-6th That belongs to category:  education
+Precision: 1.0 Recall:  0.0 Fbeta:  0.0
+Performance of the model on data slice:   Preschool That belongs to category:  education
+Precision: 1.0 Recall:  1.0 Fbeta:  1.0
+Performance of the model on data slice:   1st-4th That belongs to category:  education
+Precision: 1.0 Recall:  0.0 Fbeta:  0.0
+Performance of the model on data slice:   12th That belongs to category:  education
+Precision: 1.0 Recall:  0.0 Fbeta:  0.0
+Performance of the model on data slice:   Never-married That belongs to category:  marital-status
+Precision: 1.0 Recall:  0.0 Fbeta:  0.0
+Performance of the model on data slice:   Married-civ-spouse That belongs to category:  marital-status
+Precision: 0.7882 Recall:  0.5171 Fbeta:  0.6245
+Performance of the model on data slice:   Divorced That belongs to category:  marital-status
+Precision: 1.0 Recall:  0.0 Fbeta:  0.0
+Performance of the model on data slice:   Widowed That belongs to category:  marital-status
+Precision: 1.0 Recall:  0.0 Fbeta:  0.0
+Performance of the model on data slice:   Separated That belongs to category:  marital-status
+Precision: 1.0 Recall:  0.0 Fbeta:  0.0
+Performance of the model on data slice:   Married-spouse-absent That belongs to category:  marital-status
+Precision: 1.0 Recall:  0.0 Fbeta:  0.0
+Performance of the model on data slice:   Married-AF-spouse That belongs to category:  marital-status
+Precision: 1.0 Recall:  0.0 Fbeta:  0.0
+Performance of the model on data slice:   Other-service That belongs to category:  occupation
+Precision: 0.6667 Recall:  0.125 Fbeta:  0.2105
+Performance of the model on data slice:   Craft-repair That belongs to category:  occupation
+Precision: 0.7907 Recall:  0.1818 Fbeta:  0.2957
+Performance of the model on data slice:   Exec-managerial That belongs to category:  occupation
+Precision: 0.8419 Recall:  0.5545 Fbeta:  0.6686
+Performance of the model on data slice:   Protective-serv That belongs to category:  occupation
+Precision: 0.7895 Recall:  0.3191 Fbeta:  0.4545
+Performance of the model on data slice:   Handlers-cleaners That belongs to category:  occupation
+Precision: 0.5 Recall:  0.1667 Fbeta:  0.25
+Performance of the model on data slice:   Sales That belongs to category:  occupation
+Precision: 0.8087 Recall:  0.4794 Fbeta:  0.6019
+Performance of the model on data slice:   Adm-clerical That belongs to category:  occupation
+Precision: 0.7381 Recall:  0.2793 Fbeta:  0.4052
+Performance of the model on data slice:   ? That belongs to category:  occupation
+Precision: 0.6875 Recall:  0.2558 Fbeta:  0.3729
+Performance of the model on data slice:   Prof-specialty That belongs to category:  occupation
+Precision: 0.7651 Recall:  0.6264 Fbeta:  0.6888
+Performance of the model on data slice:   Machine-op-inspct That belongs to category:  occupation
+Precision: 0.6154 Recall:  0.2 Fbeta:  0.3019
+Performance of the model on data slice:   Farming-fishing That belongs to category:  occupation
+Precision: 0.5556 Recall:  0.3704 Fbeta:  0.4444
+Performance of the model on data slice:   Transport-moving That belongs to category:  occupation
+Precision: 0.8182 Recall:  0.2 Fbeta:  0.3214
+Performance of the model on data slice:   Tech-support That belongs to category:  occupation
+Precision: 0.8462 Recall:  0.3235 Fbeta:  0.4681
+Performance of the model on data slice:   Priv-house-serv That belongs to category:  occupation
+Precision: 1.0 Recall:  1.0 Fbeta:  1.0
+Performance of the model on data slice:   Armed-Forces That belongs to category:  occupation
+Precision: 1.0 Recall:  1.0 Fbeta:  1.0
+Performance of the model on data slice:   Own-child That belongs to category:  relationship
+Precision: 1.0 Recall:  0.0 Fbeta:  0.0
+Performance of the model on data slice:   Husband That belongs to category:  relationship
+Precision: 0.7822 Recall:  0.5597 Fbeta:  0.6525
+Performance of the model on data slice:   Not-in-family That belongs to category:  relationship
+Precision: 1.0 Recall:  0.0 Fbeta:  0.0
+Performance of the model on data slice:   Unmarried That belongs to category:  relationship
+Precision: 1.0 Recall:  0.0 Fbeta:  0.0
+Performance of the model on data slice:   Wife That belongs to category:  relationship
+Precision: 0.9189 Recall:  0.2138 Fbeta:  0.3469
+Performance of the model on data slice:   Other-relative That belongs to category:  relationship
+Precision: 1.0 Recall:  0.1111 Fbeta:  0.2
+Performance of the model on data slice:   White That belongs to category:  race
+Precision: 0.7935 Recall:  0.4462 Fbeta:  0.5712
+Performance of the model on data slice:   Black That belongs to category:  race
+Precision: 0.7333 Recall:  0.2785 Fbeta:  0.4037
+Performance of the model on data slice:   Asian-Pac-Islander That belongs to category:  race
+Precision: 0.7273 Recall:  0.5161 Fbeta:  0.6038
+Performance of the model on data slice:   Other That belongs to category:  race
+Precision: 1.0 Recall:  0.6 Fbeta:  0.75
+Performance of the model on data slice:   Amer-Indian-Eskimo That belongs to category:  race
+Precision: 0.5 Recall:  0.1429 Fbeta:  0.2222
+Performance of the model on data slice:   Male That belongs to category:  sex
+Precision: 0.7822 Recall:  0.4996 Fbeta:  0.6098
+Performance of the model on data slice:   Female That belongs to category:  sex
+Precision: 0.9211 Recall:  0.1346 Fbeta:  0.2349
+Performance of the model on data slice:   United-States That belongs to category:  native-country
+Precision: 0.7929 Recall:  0.4367 Fbeta:  0.5632
+Performance of the model on data slice:   ? That belongs to category:  native-country
+Precision: 0.8 Recall:  0.5333 Fbeta:  0.64
+Performance of the model on data slice:   South That belongs to category:  native-country
+Precision: 0.6667 Recall:  0.6667 Fbeta:  0.6667
+Performance of the model on data slice:   Thailand That belongs to category:  native-country
+Precision: 1.0 Recall:  0.0 Fbeta:  0.0
+Performance of the model on data slice:   Jamaica That belongs to category:  native-country
+Precision: 1.0 Recall:  0.3333 Fbeta:  0.5
+Performance of the model on data slice:   India That belongs to category:  native-country
+Precision: 0.8333 Recall:  0.6667 Fbeta:  0.7407
+Performance of the model on data slice:   Peru That belongs to category:  native-country
+Precision: 1.0 Recall:  0.0 Fbeta:  0.0
+Performance of the model on data slice:   Greece That belongs to category:  native-country
+Precision: 0.6667 Recall:  1.0 Fbeta:  0.8
+Performance of the model on data slice:   Mexico That belongs to category:  native-country
+Precision: 1.0 Recall:  0.3333 Fbeta:  0.5
+Performance of the model on data slice:   Canada That belongs to category:  native-country
+Precision: 0.6667 Recall:  0.2857 Fbeta:  0.4
+Performance of the model on data slice:   China That belongs to category:  native-country
+Precision: 0.3333 Recall:  0.5 Fbeta:  0.4
+Performance of the model on data slice:   El-Salvador That belongs to category:  native-country
+Precision: 1.0 Recall:  0.6 Fbeta:  0.75
+Performance of the model on data slice:   Guatemala That belongs to category:  native-country
+Precision: 1.0 Recall:  1.0 Fbeta:  1.0
+Performance of the model on data slice:   Cuba That belongs to category:  native-country
+Precision: 1.0 Recall:  0.5 Fbeta:  0.6667
+Performance of the model on data slice:   Japan That belongs to category:  native-country
+Precision: 0.8 Recall:  0.5714 Fbeta:  0.6667
+Performance of the model on data slice:   Haiti That belongs to category:  native-country
+Precision: 0.0 Recall:  1.0 Fbeta:  0.0
+Performance of the model on data slice:   Vietnam That belongs to category:  native-country
+Precision: 0.0 Recall:  0.0 Fbeta:  0.0
+Performance of the model on data slice:   Poland That belongs to category:  native-country
+Precision: 1.0 Recall:  0.5 Fbeta:  0.6667
+Performance of the model on data slice:   Columbia That belongs to category:  native-country
+Precision: 1.0 Recall:  1.0 Fbeta:  1.0
+Performance of the model on data slice:   Portugal That belongs to category:  native-country
+Precision: 1.0 Recall:  1.0 Fbeta:  1.0
+Performance of the model on data slice:   England That belongs to category:  native-country
+Precision: 0.5 Recall:  0.2 Fbeta:  0.2857
+Performance of the model on data slice:   France That belongs to category:  native-country
+Precision: 1.0 Recall:  0.0 Fbeta:  0.0
+Performance of the model on data slice:   Italy That belongs to category:  native-country
+Precision: 0.6667 Recall:  0.4 Fbeta:  0.5
+Performance of the model on data slice:   Cambodia That belongs to category:  native-country
+Precision: 1.0 Recall:  0.0 Fbeta:  0.0
+Performance of the model on data slice:   Puerto-Rico That belongs to category:  native-country
+Precision: 1.0 Recall:  0.5 Fbeta:  0.6667
+Performance of the model on data slice:   Germany That belongs to category:  native-country
+Precision: 0.75 Recall:  0.6 Fbeta:  0.6667
+Performance of the model on data slice:   Dominican-Republic That belongs to category:  native-country
+Precision: 1.0 Recall:  1.0 Fbeta:  1.0
+Performance of the model on data slice:   Philippines That belongs to category:  native-country
+Precision: 0.75 Recall:  0.4 Fbeta:  0.5217
+Performance of the model on data slice:   Iran That belongs to category:  native-country
+Precision: 1.0 Recall:  0.6667 Fbeta:  0.8
+Performance of the model on data slice:   Outlying-US(Guam-USVI-etc) That belongs to category:  native-country
+Precision: 1.0 Recall:  1.0 Fbeta:  1.0
+Performance of the model on data slice:   Ireland That belongs to category:  native-country
+Precision: 1.0 Recall:  1.0 Fbeta:  1.0
+Performance of the model on data slice:   Hungary That belongs to category:  native-country
+Precision: 1.0 Recall:  0.3333 Fbeta:  0.5
+Performance of the model on data slice:   Honduras That belongs to category:  native-country
+Precision: 1.0 Recall:  1.0 Fbeta:  1.0
+Performance of the model on data slice:   Laos That belongs to category:  native-country
+Precision: 1.0 Recall:  0.0 Fbeta:  0.0
+Performance of the model on data slice:   Ecuador That belongs to category:  native-country
+Precision: 1.0 Recall:  0.0 Fbeta:  0.0
+Performance of the model on data slice:   Taiwan That belongs to category:  native-country
+Precision: 0.8 Recall:  1.0 Fbeta:  0.8889
+Performance of the model on data slice:   Nicaragua That belongs to category:  native-country
+Precision: 0.0 Recall:  0.0 Fbeta:  0.0
+Performance of the model on data slice:   Hong That belongs to category:  native-country
+Precision: 0.0 Recall:  0.0 Fbeta:  0.0
+Performance of the model on data slice:   Scotland That belongs to category:  native-country
+Precision: 1.0 Recall:  1.0 Fbeta:  1.0
+Performance of the model on data slice:   Yugoslavia That belongs to category:  native-country
+Precision: 1.0 Recall:  0.0 Fbeta:  0.0

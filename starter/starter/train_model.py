@@ -6,7 +6,7 @@ import pickle
 import pandas as pd
 import os
 from starter.starter.ml.data import process_data
-from starter.starter.ml.model import train_model, inference, compute_model_metrics
+from starter.starter.ml.model import train_model, inference, compute_model_metrics, performance_on_slices
 
 # Add code to load in the data.
 dir_path = os.path.dirname(__file__).split('/starter')[0]
@@ -51,4 +51,13 @@ print(predictions)
 
 precision, recall, fbeta = compute_model_metrics(y=y_test, preds=predictions)
 
-print(precision,recall,fbeta)
+print()
+#
+
+write_to_file = open(dir_path + '/starter/model/slice_output.txt', 'w')
+
+print("Performance of the model on whole test data set:", file=write_to_file)
+print("Precision:", round(precision,4), "Recall: ", round(recall,4), "Fbeta: ", round(fbeta,4), file=write_to_file)
+
+
+performance_on_slices(df = test, cat_features = cat_features, encoder=encoder,lb=lb,model=model, write_to_file=write_to_file)
