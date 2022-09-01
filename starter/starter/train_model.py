@@ -42,17 +42,16 @@ X_test, y_test, _, _ = process_data(test, categorical_features=cat_features, lab
 # Train and save a model.
 model = train_model(X_train=X_train, y_train=y_train)
 
-save_path = dir_path + '/starter/model/saved_model_pickle.sav'
-pickle.dump(model, open(save_path, 'wb'))
+save_path = dir_path + '/starter/model/'
+pickle.dump(model, open(save_path + 'saved_model_pickle.sav', 'wb'))
+pickle.dump(encoder, open(save_path + 'encoder.sav','wb'))
+
 
 predictions = inference(model=model, X=X_test)
 
-print(predictions)
-
 precision, recall, fbeta = compute_model_metrics(y=y_test, preds=predictions)
 
-print()
-#
+
 
 write_to_file = open(dir_path + '/starter/model/slice_output.txt', 'w')
 
